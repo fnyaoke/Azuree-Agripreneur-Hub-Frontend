@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'agripreneur';
-  welcome = 'Welcome to Azuree Farm World'
 }
