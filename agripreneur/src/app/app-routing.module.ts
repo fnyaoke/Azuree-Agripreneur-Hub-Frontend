@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { FarmersComponent } from './farmers/farmers.component';
 import { ProductsComponent } from './products/products.component';
@@ -33,34 +31,9 @@ const routes: Routes = [
   { path: 'farmer', component: FarmerProfileComponent },
   { path: 'farmerslist', component: FarmersComponent },
   { path: 'about', component: AboutComponent }
-
-
 ];
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FarmersComponent,
-    ProductsComponent,
-    MarketComponent,
-    AdminNavbarComponent,
-    AboutComponent,
-    LoginComponent,
-    FooterComponent,
-    SignupComponent,
-    HomeComponent,
-    HttpComponent,
-    CustomerProfileComponent,
-    FarmerProfileComponent,
-    SidenavComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppModule { }
+export class AppRoutingModule { }

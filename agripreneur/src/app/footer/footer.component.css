@@ -1,0 +1,33 @@
+.col-md-3 {
+    background-color:green;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    /*margin: 2em;*/
+    box-shadow: 0 0 5em -1em black;
+    position: relative;
+    border: 10px solid #ccc;
+    text-decoration: none;
+}
+.col-md-2 {
+    background-color:green;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    /*margin: 2em;*/
+    box-shadow: 0 0 5em -1em black;
+    position: relative;
+    border: 10px solid #ccc;
+    text-decoration: none;
+}
+.col-md-4 {
+    background-color:green;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    /*margin: 2em;*/
+    box-shadow: 0 0 5em -1em black;
+    position: relative;
+    border: 10px solid #ccc;
+    text-decoration: none;
+}
